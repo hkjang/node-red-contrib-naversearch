@@ -1,0 +1,18 @@
+{
+  "naversearch" : {
+    "label" : {
+      "api": "API",
+      "query": "검색어",
+      "display": "출력 건수",
+      "sort": "정렬",
+      "start": "검색시작위치"
+    },
+    "desc" : {
+      "api": "API 종류(blog,news,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc)",
+      "query": "검색어를 입력해 주세요",
+      "display": "검색 결과 출력 건수 지정",
+      "sort": "정렬 옵션: sim (유사도순), date (날짜순)",
+      "start": "검색 시작 위치로 최대 1000까지 가능"
+    }
+  }
+}
