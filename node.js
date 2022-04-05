@@ -28,7 +28,7 @@ module.exports = function (RED) {
                     node.url = 'https://openapi.naver.com/v1/search/blog.json';
                 }
             }
-            node.error(node.url);
+            // node.error(node.url);
             node.options = {};
             node.options.headers = {};
             if(node.params){
