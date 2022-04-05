@@ -21,8 +21,8 @@ command in your Node-RED user directory, typically `~/.node-red`
 
 
 msg.params = {};
-msg.params.api = 'blog'; //# API : blog,news,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc 
-msg.params.query = '테스트'; //#검색어
+msg.params.api = 'blog'; //# API : blog,news,book,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc 
+msg.params.query = '테슬라'; //#검색어
 msg.params.display = "10" // #출력 검색 수
 msg.params.sort = 'date' //#결과값의 정렬기준 시간순 date, 관련도 순 sim
 msg.params.start = "1" //# 출력 위치

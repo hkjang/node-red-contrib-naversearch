@@ -3,14 +3,14 @@
     "id": "133f1b2f.22be85",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 블로그",
+    "name": "네이버 블로그 검색",
     "api": "blog",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
+    "x": 350,
     "y": 300,
     "wires": [
       [
@@ -67,14 +67,14 @@
     "id": "94285f50.74805",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 뉴스",
+    "name": "네이버 뉴스 검색",
     "api": "news",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 330,
+    "x": 350,
     "y": 340,
     "wires": [
       [
@@ -139,7 +139,7 @@
     "start": "1",
     "creds": "bce27ad5.f77dd8",
     "x": 370,
-    "y": 380,
+    "y": 420,
     "wires": [
       [
         "42c3d45c.d4c34c"
@@ -168,7 +168,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 380,
+    "y": 420,
     "wires": [
       [
         "804b93f8.19242"
@@ -188,22 +188,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 380,
+    "y": 420,
     "wires": []
   },
   {
     "id": "2262748c.056dec",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 백과사전",
+    "name": "네이버 백과사전 검색",
     "api": "encyc",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
-    "y": 420,
+    "x": 360,
+    "y": 460,
     "wires": [
       [
         "55a26134.93169"
@@ -232,7 +232,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 420,
+    "y": 460,
     "wires": [
       [
         "2262748c.056dec"
@@ -252,22 +252,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 420,
+    "y": 460,
     "wires": []
   },
   {
     "id": "15b7ef5d.2e40d1",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 영화",
+    "name": "네이버 영화 검색",
     "api": "movie",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 330,
-    "y": 460,
+    "x": 350,
+    "y": 500,
     "wires": [
       [
         "6c63b7e6.8294c8"
@@ -296,7 +296,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 460,
+    "y": 500,
     "wires": [
       [
         "15b7ef5d.2e40d1"
@@ -316,22 +316,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 460,
+    "y": 500,
     "wires": []
   },
   {
     "id": "bc7fd2b6.c27b2",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 카페",
+    "name": "네이버 카페 검색",
     "api": "cafearticle",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 330,
-    "y": 500,
+    "x": 350,
+    "y": 540,
     "wires": [
       [
         "125ee444.9dac6c"
@@ -360,7 +360,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 500,
+    "y": 540,
     "wires": [
       [
         "bc7fd2b6.c27b2"
@@ -380,22 +380,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 500,
+    "y": 540,
     "wires": []
   },
   {
     "id": "9a53f410.4e9448",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 지식IN",
+    "name": "네이버 지식IN 검색",
     "api": "kin",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
-    "y": 540,
+    "x": 350,
+    "y": 580,
     "wires": [
       [
         "c44933d6.acd73"
@@ -424,7 +424,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 540,
+    "y": 580,
     "wires": [
       [
         "9a53f410.4e9448"
@@ -444,22 +444,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 540,
+    "y": 580,
     "wires": []
   },
   {
     "id": "f9e7fd6f.0d6d4",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 지역",
+    "name": "네이버 지역 검색",
     "api": "local",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 330,
-    "y": 580,
+    "x": 350,
+    "y": 620,
     "wires": [
       [
         "ae669ddf.0e7c7"
@@ -488,7 +488,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 580,
+    "y": 620,
     "wires": [
       [
         "f9e7fd6f.0d6d4"
@@ -508,7 +508,7 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 580,
+    "y": 620,
     "wires": []
   },
   {
@@ -523,7 +523,7 @@
     "start": "1",
     "creds": "bce27ad5.f77dd8",
     "x": 340,
-    "y": 620,
+    "y": 660,
     "wires": [
       [
         "888b89e.4a35d78"
@@ -552,7 +552,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 620,
+    "y": 660,
     "wires": [
       [
         "86cae521.5fb918"
@@ -572,22 +572,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 620,
+    "y": 660,
     "wires": []
   },
   {
     "id": "34f1e7f9.ef4318",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 웹문서",
+    "name": "네이버 웹문서 검색",
     "api": "webkr",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
-    "y": 660,
+    "x": 350,
+    "y": 700,
     "wires": [
       [
         "287d215c.3bd5be"
@@ -616,7 +616,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 660,
+    "y": 700,
     "wires": [
       [
         "34f1e7f9.ef4318"
@@ -636,22 +636,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 660,
+    "y": 700,
     "wires": []
   },
   {
     "id": "2559db79.0edd44",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 이미지",
+    "name": "네이버 이미지 검색",
     "api": "image",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
-    "y": 700,
+    "x": 350,
+    "y": 740,
     "wires": [
       [
         "7cf6b781.e15cf8"
@@ -680,7 +680,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 700,
+    "y": 740,
     "wires": [
       [
         "2559db79.0edd44"
@@ -700,22 +700,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 700,
+    "y": 740,
     "wires": []
   },
   {
     "id": "ec8f2b69.aff718",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 쇼핑",
+    "name": "네이버 쇼핑 검색",
     "api": "shop",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 330,
-    "y": 740,
+    "x": 350,
+    "y": 780,
     "wires": [
       [
         "945d7294.bec0d"
@@ -744,7 +744,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 740,
+    "y": 780,
     "wires": [
       [
         "ec8f2b69.aff718"
@@ -764,22 +764,22 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 740,
+    "y": 780,
     "wires": []
   },
   {
     "id": "256899ba.cfc306",
     "type": "naversearch",
     "z": "fbe560b0.5c19f",
-    "name": "네이버 전문자료",
+    "name": "네이버 전문자료 검색",
     "api": "doc",
     "query": "테슬라",
     "display": "10",
     "sort": "date",
     "start": "1",
     "creds": "bce27ad5.f77dd8",
-    "x": 340,
-    "y": 780,
+    "x": 360,
+    "y": 820,
     "wires": [
       [
         "8994585.3051fa8"
@@ -808,7 +808,7 @@
     "payload": "",
     "payloadType": "date",
     "x": 150,
-    "y": 780,
+    "y": 820,
     "wires": [
       [
         "256899ba.cfc306"
@@ -828,7 +828,71 @@
     "statusVal": "",
     "statusType": "auto",
     "x": 570,
-    "y": 780,
+    "y": 820,
+    "wires": []
+  },
+  {
+    "id": "c86e9513.2bea98",
+    "type": "naversearch",
+    "z": "fbe560b0.5c19f",
+    "name": "네이버 책 검색",
+    "api": "news",
+    "query": "테슬라",
+    "display": "10",
+    "sort": "date",
+    "start": "1",
+    "creds": "bce27ad5.f77dd8",
+    "x": 340,
+    "y": 380,
+    "wires": [
+      [
+        "c4ccccb.2cb353"
+      ]
+    ]
+  },
+  {
+    "id": "a13eed49.4e508",
+    "type": "inject",
+    "z": "fbe560b0.5c19f",
+    "name": "",
+    "props": [
+      {
+        "p": "payload"
+      },
+      {
+        "p": "topic",
+        "vt": "str"
+      }
+    ],
+    "repeat": "",
+    "crontab": "",
+    "once": false,
+    "onceDelay": 0.1,
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "x": 150,
+    "y": 380,
+    "wires": [
+      [
+        "c86e9513.2bea98"
+      ]
+    ]
+  },
+  {
+    "id": "c4ccccb.2cb353",
+    "type": "debug",
+    "z": "fbe560b0.5c19f",
+    "name": "",
+    "active": true,
+    "tosidebar": true,
+    "console": false,
+    "tostatus": false,
+    "complete": "false",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 570,
+    "y": 380,
     "wires": []
   },
   {

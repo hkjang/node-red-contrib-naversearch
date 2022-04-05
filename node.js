@@ -23,7 +23,7 @@ module.exports = function (RED) {
             }
             if(!node.url){
                 if(node.api){
-                    node.url = 'https://openapi.naver.com/v1/search/'+ node.api +'.json';
+                    node.url = 'https://openapi.naver.com/v1/search/'+ node.api.toLowerCase() +'.json';
                 }else{
                     node.url = 'https://openapi.naver.com/v1/search/blog.json';
                 }

@@ -8,7 +8,7 @@
       "start": "検索の開始位置"
     },
     "desc" : {
-      "api": "kind of search API(blog,news,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc)",
+      "api": "kind of search API(blog,news,book,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc)",
       "query": "検索語を入力してください",
       "display": "検索結果の出力件数指定",
       "sort": "並べ替えオプション：sim（類似度順）、date（日付）",

@@ -8,7 +8,7 @@
       "start": "start"
     },
     "desc" : {
-      "api": "kind of search API(blog,news,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc)",
+      "api": "kind of search API(blog,news,book,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc)",
       "query": "query for search search",
       "display": "Search starting position up to 1000 possible",
       "sort": "Sort options: sim (similarity order), date (date order)",
