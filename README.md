@@ -19,9 +19,9 @@ command in your Node-RED user directory, typically `~/.node-red`
 ## Sample parameters
 ```js
 
-msg.url = 'https://openapi.naver.com/v1/search/search.json';
 
 msg.params = {};
+msg.params.api = 'blog'; //# API : blog,news,adult,encyc,movie,cafearticle,kin,local,errata,webkr,image,shop,doc 
 msg.params.query = '테스트'; //#검색어
 msg.params.display = "10" // #출력 검색 수
 msg.params.sort = 'date' //#결과값의 정렬기준 시간순 date, 관련도 순 sim
@@ -30,7 +30,8 @@ msg.params.start = "1" //# 출력 위치
 return msg;
 
 ```
-## Sample flows
-```json
 
-```
+## Sample Flow
+You can make this json string into a flow by using the node-red flow import function.
+
+- [sample.json](examples/sample.json)

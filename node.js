@@ -22,12 +22,13 @@ module.exports = function (RED) {
                 }
             }
             if(!node.url){
-                if(!node.api){
+                if(node.api){
                     node.url = 'https://openapi.naver.com/v1/search/'+ node.api +'.json';
                 }else{
                     node.url = 'https://openapi.naver.com/v1/search/blog.json';
                 }
             }
+            node.error(node.url);
             node.options = {};
             node.options.headers = {};
             if(node.params){
